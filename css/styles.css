@@ -31,6 +31,8 @@
 
 .navbar{
     background-color: #005a9e;
+    position: sticky;
+    top: 0;
 }
 
 .navbar-toggler {
@@ -39,6 +41,7 @@
 }
 
 body {
+    min-height: 100vh;
     /* background: rgb(130,130,130); */
     background: linear-gradient(0deg, rgb(175, 174, 174) 0%, rgb(255, 255, 255) 100%);
 }
