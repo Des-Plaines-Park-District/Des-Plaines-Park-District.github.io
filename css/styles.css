@@ -1,0 +1,200 @@
+
+.navbar .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-link.active {
+    border-bottom: white 2px solid;
+    margin-bottom: -1px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.55) !important;
+}
+
+.navbar-brand {
+    color: #fbc100;
+    font-size: 22px;
+    padding: .25rem .25rem .5rem;
+}
+
+.navbar-brand:hover {
+    color: rgba(255,255,255,.55) !important;
+}
+
+.navbar{
+    background-color: #005a9e;
+}
+
+.navbar-toggler {
+    background-color: #fbc100;
+    color: #005a9e;
+}
+
+body {
+    /* background: rgb(130,130,130); */
+    background: linear-gradient(0deg, rgb(175, 174, 174) 0%, rgb(255, 255, 255) 100%);
+}
+
+.content {
+    min-height: 100vh;
+}
+
+.officeapps {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+    row-gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.officeapps > a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.officeapps > a:hover {
+    /* box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1); */
+    transform: scale(1.10, 1.10);
+    opacity: 0.3;
+}
+
+a > p {
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+}
+
+.test {
+    
+}
+
+.vr {
+    min-width: 3px !important;
+}
+
+@media (max-width:990px) {
+    .vr{
+        display: none;
+    }
+}
+
+footer {
+    background-color: #947B66;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+.contact {
+    min-height: 75vh;
+    padding: 5vh;
+}
+
+.contact_bg {
+    background-color:blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.contact_bg p {
+    font-size: 18px;
+}
+
+#margin_form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: black;
+    padding-top: 2rem;
+}
+
+.title p {
+    color: black;
+    font-size: 20px;
+}
+
+#title_style {
+    border: 3px solid white !important;
+    opacity: .5 !important;
+    border-radius: 5px;
+}
+
+#outline {
+    box-shadow: -1px 0 0 lightgray;
+}
+
+.outline {
+    border: white solid 1px;
+    border-radius: 10px;
+}
+
+.commitment h3{
+    font-size: 30px;
+}
+
+.commitment p {
+    font-size: 18px;
+}
+
+.text-shade {
+    background-color: rgba(52, 146, 52, 0.5) !important;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.service-head h2 {
+    text-decoration: underline;
+}
+
+@media (max-width:770px) {
+
+    .officeapps {
+        display: grid;
+        grid-template-columns: auto auto; 
+    }
+
+    #service-card {
+        width: 100%;
+    }
+
+    #outline {
+        box-shadow: none;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (max-height:815px) {
+
+    .title p {
+        font-size: 14px;
+    }
+}
