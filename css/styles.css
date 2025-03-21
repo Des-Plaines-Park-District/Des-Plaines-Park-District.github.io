@@ -178,7 +178,8 @@ td {
 
     .officeapps {
         display: grid;
-        grid-template-columns: auto auto; 
+        grid-template-columns: auto auto;
+        gap: 1rem;
     }
 
     #service-card {
