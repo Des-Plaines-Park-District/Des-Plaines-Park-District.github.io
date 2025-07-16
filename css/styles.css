@@ -12,7 +12,8 @@
 }
 
 .nav-link {
-    color: white !important;
+    color: #fbc100 !important;
+    font-weight: 500;
 }
 
 .nav-link:hover {
