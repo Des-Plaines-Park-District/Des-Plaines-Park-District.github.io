@@ -54,7 +54,10 @@ body {
 .officeapps {
     display: grid;
     place-items: center;
-    grid-template-columns: auto auto auto;
+/*     grid-template-columns: auto auto auto; */ /* Allows 3rd column */
+    grid-template-columns: auto auto; /* Remove to add 3rd column */
+    margin: auto; /* Remove to add 3rd column */
+    max-width: 780px; /* Remove to add 3rd column */
     row-gap: 3rem;
     justify-content: space-evenly;
 }
@@ -87,6 +90,14 @@ a > p {
 @media (max-width:990px) {
     .vr{
         display: none;
+    }
+    .icon{
+        padding-bottom: 1rem;
+    }
+    .nav-link{
+        border-top: solid;
+        border-color: gray !important;
+        border-width: .05rem;
     }
 }
 
