@@ -9,8 +9,8 @@
 }
 
 .nav-link {
-    /* color: #fbc100 !important; */
-    color: white;
+    color: #fbc100 !important;
+    color: black;
     font-size: 18px;
     font-weight: 500;
 }
@@ -21,6 +21,7 @@
 
 .navbar-brand {
     color: #fbc100;
+    /* color: black; */
     font-weight: bolder;
     font-size: 26px;
     padding: .25rem .25rem .5rem .75rem;
@@ -33,6 +34,7 @@
 .navbar{
     /* background-color: #005a9e; */
     background: linear-gradient(to right, #005A9E 0%, #00959E 100%);
+    /* background: white; */
     position: sticky;
     top: 0;
 }
@@ -45,6 +47,7 @@
 body {
     min-height: 100vh;
     /* background: white; */
+    /* background: linear-gradient(to right, #005A9E 0%, #00959E 100%); */
     background-image: linear-gradient(to bottom, #ffffff, #edeef2, #d8dee4, #c2cfd6, #acc0c6);
     /* background: linear-gradient(0deg, rgb(175, 174, 174) 0%, rgb(255, 255, 255) 100%); */
 }
